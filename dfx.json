@@ -1,0 +1,28 @@
+{
+  "canisters": {
+    "service": {
+      "main": "src/backend/service/main.mo",
+      "type": "motoko"
+    },
+    "assets": {
+      "dependencies": ["service"],
+      "frontend": {
+        "entrypoint": "dist/index.html"
+      },
+      "source": ["dist/"],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": ""
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    }
+  },
+  "version": 1
+}

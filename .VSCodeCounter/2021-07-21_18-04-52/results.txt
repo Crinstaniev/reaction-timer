@@ -1,0 +1,56 @@
+Date : 2021-07-21 18:04:52
+Directory : /Users/crinstaniev/Development/dfinity/reaction-timer
+Total : 17 files,  3580 codes, 7 comments, 88 blanks, all 3675 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JSON       |          4 |      3,032 |          0 |          3 |      3,035 |
+| Vue        |          4 |        405 |          1 |         52 |        458 |
+| JavaScript |          3 |         47 |          6 |         11 |         64 |
+| XML        |          1 |         24 |          0 |          1 |         25 |
+| HTML       |          1 |         24 |          0 |          2 |         26 |
+| motoko     |          1 |         18 |          0 |          7 |         25 |
+| Markdown   |          1 |         16 |          0 |         12 |         28 |
+| CSS        |          1 |          9 |          0 |          0 |          9 |
+| Docker     |          1 |          5 |          0 |          0 |          5 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                   | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                      |         17 |      3,580 |          7 |         88 |      3,675 |
+| src                                                                                    |          9 |        474 |          4 |         67 |        545 |
+| src/assets                                                                             |          1 |         24 |          0 |          1 |         25 |
+| src/backend                                                                            |          1 |         18 |          0 |          7 |         25 |
+| src/backend/service                                                                    |          1 |         18 |          0 |          7 |         25 |
+| src/common                                                                             |          1 |          9 |          0 |          0 |          9 |
+| src/common/css                                                                         |          1 |          9 |          0 |          0 |          9 |
+| src/components                                                                         |          3 |        348 |          1 |         42 |        391 |
++----------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                               | language   | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| /Users/crinstaniev/Development/dfinity/reaction-timer/.prettierrc                      | JSON       |          5 |          0 |          1 |          6 |
+| /Users/crinstaniev/Development/dfinity/reaction-timer/Dockerfile                       | Docker     |          5 |          0 |          0 |          5 |
+| /Users/crinstaniev/Development/dfinity/reaction-timer/README.md                        | Markdown   |         16 |          0 |         12 |         28 |
+| /Users/crinstaniev/Development/dfinity/reaction-timer/dfx.json                         | JSON       |         28 |          0 |          1 |         29 |
+| /Users/crinstaniev/Development/dfinity/reaction-timer/index.html                       | HTML       |         24 |          0 |          2 |         26 |
+| /Users/crinstaniev/Development/dfinity/reaction-timer/package-lock.json                | JSON       |      2,978 |          0 |          1 |      2,979 |
+| /Users/crinstaniev/Development/dfinity/reaction-timer/package.json                     | JSON       |         21 |          0 |          0 |         21 |
+| /Users/crinstaniev/Development/dfinity/reaction-timer/src/App.vue                      | Vue        |         57 |          0 |         10 |         67 |
+| /Users/crinstaniev/Development/dfinity/reaction-timer/src/agent.js                     | JavaScript |         14 |          0 |          4 |         18 |
+| /Users/crinstaniev/Development/dfinity/reaction-timer/src/assets/logo.svg              | XML        |         24 |          0 |          1 |         25 |
+| /Users/crinstaniev/Development/dfinity/reaction-timer/src/backend/service/main.mo      | motoko     |         18 |          0 |          7 |         25 |
+| /Users/crinstaniev/Development/dfinity/reaction-timer/src/common/css/style.css         | CSS        |          9 |          0 |          0 |          9 |
+| /Users/crinstaniev/Development/dfinity/reaction-timer/src/components/Game.vue          | Vue        |        159 |          1 |         19 |        179 |
+| /Users/crinstaniev/Development/dfinity/reaction-timer/src/components/GlobalRanking.vue | Vue        |        125 |          0 |         15 |        140 |
+| /Users/crinstaniev/Development/dfinity/reaction-timer/src/components/StartModal.vue    | Vue        |         64 |          0 |          8 |         72 |
+| /Users/crinstaniev/Development/dfinity/reaction-timer/src/main.js                      | JavaScript |          4 |          3 |          3 |         10 |
+| /Users/crinstaniev/Development/dfinity/reaction-timer/vite.config.js                   | JavaScript |         29 |          3 |          4 |         36 |
+| Total                                                                                  |            |      3,580 |          7 |         88 |      3,675 |
++----------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
