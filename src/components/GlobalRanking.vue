@@ -21,6 +21,7 @@
 import { service } from "../agent";
 
 export default {
+  emits: ["exit"],
   data() {
     return {
       records: [],

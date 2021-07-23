@@ -24,5 +24,6 @@
       "type": "ephemeral"
     }
   },
+  "dfx": "0.7.2",
   "version": 1
 }

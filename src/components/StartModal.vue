@@ -1,18 +1,53 @@
 <template>
   <!-- Start Game, Global Rank -->
-  <div class="container">
+  <!-- <div class="container">
     <div class="header">Reaction Timer</div>
     <div class="modal-container">
       <div class="grid" @click="handleRankingClick"><p>Global Ranking</p></div>
       <div class="grid" @click="handleStartClick"><p>Game Start</p></div>
     </div>
-  </div>
+  </div> -->
+  <el-container style="width: 100%">
+    <Header />
+    <el-main>
+      <el-row>
+        <el-col :span="24">
+          <div class="header">Reaction Timer</div>
+        </el-col>
+      </el-row>
+      <el-row>
+        <el-col :span="24" class="card-container">
+          <el-card class="modal-container">
+            <div class="button-wrap">
+              <el-button class="button" type="success" @click="handleStartClick"
+                ><p class="button-text">Game Start</p></el-button
+              >
+            </div>
+            <div class="button-wrap">
+              <el-button
+                class="button"
+                type="primary"
+                @click="handleRankingClick"
+                ><p class="button-text">Global Ranking</p></el-button
+              >
+            </div>
+          </el-card>
+        </el-col>
+      </el-row>
+    </el-main>
+    <el-footer>{{ footer }}</el-footer>
+  </el-container>
 </template>
 
 <script>
+import Header from "./modules/Header.vue";
 export default {
+  components: { Header },
   data() {
-    return {};
+    return {
+      footer:
+        "Powered by Johnathan Zhuang | Blog - blog.ppsh.su | GitHub@Crinstaniev",
+    };
   },
 
   methods: {
@@ -29,16 +64,11 @@ export default {
 
 <style>
 .modal-container {
-  width: 400px;
-  height: 300px;
-  background-color: #005587;
+  width: 450px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 10%;
-  flex-direction: column;
-  box-shadow: 2px 2px 5px grey;
-  margin-bottom: 150px;
+  flex-direction: columns;
 }
 
 .header {
@@ -68,5 +98,28 @@ export default {
 
 .grid:active {
   background-color: #dad0c6;
+}
+
+.box-card {
+  width: 480px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  width: 350px;
+  height: 75px;
+}
+
+.button-wrap {
+  padding: 15px;
+}
+
+.button-text {
+  font-size: large;
 }
 </style>

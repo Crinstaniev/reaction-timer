@@ -4,11 +4,12 @@ import {
   canisterId as service_id,
 } from "dfx-generated/service";
 
+// DEV
 // const agentOptions = {
 //   host: "http://localhost:8000",
 // }
-
 // const agent = new HttpAgent(agentOptions)
+
 const agent = new HttpAgent();
 const service = Actor.createActor(service_idl, {
   agent,
